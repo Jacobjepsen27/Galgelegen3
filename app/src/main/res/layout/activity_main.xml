@@ -9,51 +9,18 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:id="@+id/ordView"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Velkommen til Galgeleg&apos;s spillet"
+        android:id="@+id/textView"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/imageView"
-        android:src="@drawable/galge"
-        android:layout_below="@+id/ordView"
-        android:layout_centerHorizontal="true" />
-
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:ems="10"
-        android:id="@+id/svarText"
-        android:hint="Skriv her"
-        android:layout_below="@+id/imageView"
-        android:layout_alignEnd="@+id/imageView" />
-
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="GÆT"
-        android:id="@+id/guessButton"
-        android:layout_alignTop="@+id/svarText"
-        android:layout_alignParentEnd="true" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:id="@+id/resultView"
-        android:layout_below="@+id/guessButton"
-        android:layout_centerHorizontal="true" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="START IGEN"
-        android:id="@+id/resetButton"
-        android:layout_below="@+id/resultView"
+        android:text="START SPIL"
+        android:id="@+id/startButton"
+        android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="39dp" />
+        android:layout_marginTop="68dp" />
 </RelativeLayout>
