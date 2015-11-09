@@ -69,7 +69,8 @@ public class game extends Activity implements View.OnClickListener {
                 result.setText("Tillykke, du har vundet!");
             }
         } else if (v == reset){
-            startActivity(new Intent(game.this, MainActivity.class));
+            //startActivity(new Intent(game.this, MainActivity.class));
+            finish();
         }
     }
 }
